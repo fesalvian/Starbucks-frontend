@@ -3,7 +3,7 @@
 ![Starbucks Logo](./img/Starbucks_Corporation_Logo_2011.svg.png)
 
 ## 📌 Sobre o Projeto
-Este é um projeto frontend inspirado no design da Starbucks, desenvolvido com HTML, CSS. O objetivo é criar uma interface interativa e moderna para uma experiência de usuário envolvente.
+Este é um projeto frontend inspirado no design da Starbucks, desenvolvido com HTML, CSS. O objetivo é criar uma interface responsiva, interativa e moderna para uma experiência de usuário envolvente.
 
 ## 🎨 Tecnologias Utilizadas
 - HTML5

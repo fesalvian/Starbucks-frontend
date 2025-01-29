@@ -262,4 +262,68 @@
     font-size: 14px;
   }
   
-  
+  @media only screen and (max-width: 430px){
+
+    header{
+      width: 100vw;
+    }
+
+    .text-main{
+      width: 100vw;
+      display: flex;  
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .text-main img{
+      margin:0;
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    .section02{
+      width: 100vw;
+      display: flex;  
+      flex-direction: column;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .cards{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .section02 h1{
+     text-align: center;
+    }
+
+    #caramel, #caffelatte, #cappuccino {
+      display: flex;
+      align-items: center;
+      margin: auto;
+    }
+
+    .section03{
+      width: 100vw;
+      display: flex;  
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .section03 img{
+      margin:0;
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    .section03 h1{
+      text-align: center;
+      margin: 0;
+    }
+  }
