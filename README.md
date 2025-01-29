@@ -13,7 +13,7 @@ Este é um projeto frontend inspirado no design da Starbucks, desenvolvido com H
 ## 📷 Capturas de Tela
 Adicione aqui algumas imagens do site:
 
-![Screenshot 1](./screenshots/screenshot1.png)
+![Screenshot 1](./screenshots/starbucks-site-01.png)
 ![Screenshot 2](./screenshots/screenshot2.png)
 
 ## 🛠 Como Rodar o Projeto
