@@ -1,0 +1,265 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    overflow-x: hidden;
+  }
+
+  main{
+    background-color: rgb(232, 232, 232);
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+    transition: background 0.3s ease; 
+  }
+  
+  header.scrolled {
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+  }
+  
+  
+  .logo {
+    height: 100px;
+    margin: 10px;
+}
+  
+  .sign-in-btn {
+    margin-left: auto;
+    background-color: #00754a;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: #005738;
+  }
+  
+  .hero {
+    height: 100vh;
+    background: url('./img/usama-akram-zCDAYROwLC0-unsplash.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  main {
+    padding-top: 140px; /* Espaço para o header */
+  }
+
+  .text-main{
+    color: black;
+    background-color: #8eb6a7;
+    text-align: left;
+    justify-content: space-around;
+    padding: 20px;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .text-main h1 {
+    text-align: center;
+    margin: 60px;
+    font-size: 3em;
+  }
+
+  .text-main p {
+    margin: 60px;
+  }
+  
+  .img-01{
+    width: 700px;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .section02{
+    background-color: #00754a;
+  }
+
+  .section02 div{
+    margin: 60px;
+    margin-top: 0px;
+
+  }
+
+  .section02 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+
+  /* css dos copos*/ 
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+
+  
+  .cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 600px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  
+  .cards .card p.second-text {
+    font-size: 30px;
+  }
+  
+  .cards .card .img :hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .cards:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }
+  /* FIM css dos copos*/
+
+  .section03{
+    display: flex;
+    justify-content: space-around;
+    background-color: #8eb6a7;
+  }
+
+  .section03 img {
+    margin: 60px;
+    width: 800px;
+    height: auto;
+  }
+
+  .section03 h1{
+    color: black;
+    margin: 60px;
+    text-align: center;
+    font-size: 3em;
+  }
+
+  .section03 p {
+    color: black;
+    margin: 60px;
+  }
+
+  footer {
+    background: #1e3932;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+  }
+  
+  .footer-logo {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #b3e5c7;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #b3e5c7;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .social-icons img {
+    width: 60px;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.1);
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #b3e5c7;
+    font-size: 14px;
+  }
+  
+  
