@@ -14,7 +14,13 @@ Este é um projeto frontend inspirado no design da Starbucks, desenvolvido com H
 Adicione aqui algumas imagens do site:
 
 ![Screenshot 1](https://github.com/fesalvian/Starbucks-frontend/blob/main/img/starbucks%20site%2001.png?raw=true)
-![Screenshot 2](./screenshots/screenshot2.png)
+![Screenshot 2](https://github.com/fesalvian/Starbucks-frontend/blob/main/img/starbucks%20site%2002.png?raw=true)
+![Screenshot 3](https://github.com/fesalvian/Starbucks-frontend/blob/main/img/starbucks%20site%2003.png?raw=true)
+![Screenshot 4](https://github.com/fesalvian/Starbucks-frontend/blob/main/img/starbuck%2004.png?raw=true)
+![Screenshot 5](https://github.com/fesalvian/Starbucks-frontend/blob/main/img/starbucks%2005.png?raw=true)
+![Screenshot 6](https://github.com/fesalvian/Starbucks-frontend/blob/main/img/starbucks%2006.png?raw=true)
+![Screenshot 7](https://github.com/fesalvian/Starbucks-frontend/blob/main/img/starbucks%2007.png?raw=true)
+![Screenshot 8](https://github.com/fesalvian/Starbucks-frontend/blob/main/img/starbucks%2008.png?raw=true)
 
 ## 🛠 Como Rodar o Projeto
 1. Clone o repositório:
