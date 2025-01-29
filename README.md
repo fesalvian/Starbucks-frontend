@@ -8,10 +8,8 @@ Este é um projeto frontend inspirado no design da Starbucks, desenvolvido com H
 ## 🎨 Tecnologias Utilizadas
 - HTML5
 - CSS3 (incluindo Flexbox e Grid Layout)
-- JavaScript (para interatividade e efeitos visuais)
 
 ## 📷 Capturas de Tela
-Adicione aqui algumas imagens do site:
 
 ![Screenshot 1](https://github.com/fesalvian/Starbucks-frontend/blob/main/img/starbucks%20site%2001.png?raw=true)
 ![Screenshot 2](https://github.com/fesalvian/Starbucks-frontend/blob/main/img/starbucks%20site%2002.png?raw=true)
